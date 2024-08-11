@@ -1081,22 +1081,22 @@ a.campaign:focus .campaign-col h5 {
 @keyframes herobg {
     0% {
         opacity: 1;
-        background: linear-gradient(to left, #00000850, #C70F1950), url(../images/hero.png);
+        background: linear-gradient(to left, #00000850, #C70F1950), url(../images/hero.png) no-repeat;
     }
 
     25% {
         opacity: 1;
-        background: linear-gradient(to top, #00000830, #C70F1925), url(../images/hero.png);
+        background: linear-gradient(to top, #00000830, #C70F1925), url(../images/hero.png) no-repeat;
     }
 
     50% {
         opacity: 1;
-        background: linear-gradient(to right, #00000850, #C70F1930), url(../images/hero.png);
+        background: linear-gradient(to right, #00000850, #C70F1930), url(../images/hero.png) no-repeat;
     }
 
     100% {
         opacity: 1;
-        background: linear-gradient(to bottom, #00000850, #C70F1950), url(../images/hero.png);
+        background: linear-gradient(to bottom, #00000850, #C70F1950), url(../images/hero.png) no-repeat;
     }
 }
 

@@ -9,14 +9,15 @@
 
     <link rel="shortcut icon" href="./images//icons/skillsphere_logo_black.png" type="image/x-icon">
 
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
@@ -24,8 +25,10 @@
         <!-- nav Bar -->
         <nav
             class="position-fixed p-0 px-3 px-md-5 py-1 py-md-1 h-nav container-fluid d-flex justify-content-between align-items-center">
-            <a href="homepage.html" class="navbar-m-brand col-3 col-md-2 col-lg-1 d-flex align-items-center flex-nowrap">
-                <img id="brand-logo" class="me-1" style="width: 100%; height: auto; object-fit: fill;" src="images/icons/skillsphere_full_white.png" alt="">
+            <a href="homepage.html"
+                class="navbar-m-brand col-3 col-md-2 col-lg-1 d-flex align-items-center flex-nowrap">
+                <img id="brand-logo" class="me-1" style="width: 100%; height: auto; object-fit: fill;"
+                    src="images/icons/skillsphere_full_white.png" alt="">
                 <!-- <img id="brand-logo-text" style="width: 100%; height: auto; object-fit: fill;" src="images/icons/skillsphere_text_white.png" alt=""> -->
             </a>
             <div class="cbtn col-8 d-block d-md-none">
@@ -86,8 +89,9 @@
     <main>
         <div class="h-hero-main px-4 p-md-5 d-flex align-items-center">
             <div class="w-100">
-                <h1 class="h-title mt-5 text-white col-10 col-md-6">Welcome To SKILL SPHERE</h1>
-                <p class="col-11 col-sm-8 col-md-8 col-lg-5 text-white">Explore our collection and find a masterpiece
+                <h1 class="h-title mt-5 fs-1 text-white col-10 col-md-6">Welcome To SKILL SPHERE</h1>
+                <p class="col-11 col-sm-8 fs-5 col-md-8 col-lg-5 text-white">Explore our collection and find a
+                    masterpiece
                     that resonates with your soul. Embrace the elegance of true artistry and bring home something truly
                     special.</p>
                 <div class="action mt-4">
@@ -97,399 +101,448 @@
             </div>
         </div>
 
-        <section id="about-us" class="about container py-3 py-xl-5 my-md-5">
-            <!-- d-flex align-items-center justify-content-between px-2 px-md-5 pe-5 pe-md-5 my-5 flex-md-column flex-lg-row -->
-            <div class="about-content row gx-5" style="transition: .3s;">
-                <div class="abt-img-box d-none d-md-block col-lg-5">
-                    <div class="title mb-4 mt-1">
-                        <h1 class="fw-bold text-md-center text-lg-start">
-                            About <span class="text-primary">Us</span>
-                        </h1>
-                    </div>
-                    <img class="" src="images/connect.png" alt="..." style="object-fit: fill; width: 100px; height: 100px">
-                    <div class="mt-2">
-                        <h5 class="fw-bold">Welcome to Skill Sphere</h5>
-                        At Skill Sphere, we believe that talent knows no bounds, and opportunities should be
-                        accessible to all. Our platform connects skilled individuals with businesses and entrepreneurs
-                        who need their expertise, fostering a community of collaboration and growth.
-
-                        <h5 class="my-1 fw-bold">Our Story</h5>
-
-                        We saw a gap in the market where talented individuals struggled to find meaningful work, and
-                        businesses found it hard to discover the right skills. Our founders, passionate about innovation
-                        and inclusivity, created Skill Sphere to bridge this gap. Our mission is to empower talents to
-                        shine and businesses to thrive.
-                    </div>                    
-                </div>
-                <div class="col-lg-7">                   
-                    <p class="text-md-center text-lg-start">
-                        <h5 class="my-1 fw-bold">Our Mission</h5>
-
-                        <h6 class="my-1 fw-bold">Our mission is to:</h6>
-
-                        <ul>
-                            <li>Provide a platform for talents to showcase their skills and connect with potential employers</li>
-                            <li>Help businesses find the right talent to drive their success</li>
-                            <li>Foster a community of collaboration, learning, and growth</li>
-                        </ul>
-
-                        <h6 class="my-1 fw-bold">Our Values</h6>
-
-                        <ul>
-                            <li>Inclusivity: We believe everyone deserves access to opportunities</li>
-                            <li>Quality: We strive for excellence in everything we do</li>
-                            <li>Community: We foster connections and collaboration</li>
-                            <li>Growth: We empower talents and businesses to reach their full potential</li>
-                        </ul>
-
-                        <h6 class="my-1 fw-bold">How We Work</h6>
-
-                        Our platform allows talents to create profiles showcasing their skills, experience, and
-                        portfolio. Businesses can search, find, and connect with the right talents for their projects.
-                        We offer a secure, user-friendly, and efficient way to find the perfect match.
-
-                        <h6 class="my-1 fw-bold">Join Our Community</h6>
-
-                        Be part of a vibrant community of talents and businesses. <a href="signup.html">Sign up</a> today and start connecting,
-                        collaborating, and growing!
-                        <span class="line d-block col-4 bg-primary rounded mx-md-auto mx-lg-0 mt-5"></span>
-                    </p>
-                </div>
-            </div>
-            <!-- Added campaigns, Description and Goals -->
-        </section>
-        <section class="about container-fluid py-xl-5 my-xl-5 mb-5 mb-xl-0">
-
-            <div class="row px-0 px-md-5">
-                <div class="mx-auto ms-lg-0 col-11 col-lg-6 col-xl-5">
-                    <div class="title my-4 my-md-0 ms-4 ms-md-5">
-                        <h1 class="fw-bold text-md-center text-lg-start">
-                            List of <span class="text-primary">Campaigns</span>
-                        </h1>
-                    </div>
-                    <div class="row ms-1 pe-2 ms-md-5">
-                        <a href="#" class="p-0 mb-3 campaign text-decoration-none text-primary">
-                            <div class="d-flex align-items-center flex-row campaign-col shadow ps-3 rounded py-2">
-                                <div class="rounded-circle"
-                                    style="border: 1px solid #C70F19; width: 60px; height: 60px; overflow: hidden;">
-                                     <img class="w-100 h-100 rounded-circle"
-                                        style="object-fit: cover; border: solid 2px white;" src="images/connect.png"
-                                        alt=""> 
-                                </div>
-                                <div class="text ms-4">
-                                    <h5 class="m-0" id="title"><b>Showcase Your Talent Campaign</b></h5>
-                                    <span class="m-0 text-dark"><b>Description: </b>Encourage individuals to create and share profiles on Skill Sphere, highlighting their skills and achievements. Use social media and email marketing to feature standout profiles and success stories.
-                                       <br><b>Goal: </b>  Increase the number of talented individuals joining the platform.</span>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="p-0 mb-3 campaign text-decoration-none text-primary">
-                            <div class="d-flex align-items-center flex-row campaign-col shadow ps-3 rounded py-2">
-                                <div class="rounded-circle"
-                                    style="border: 1px solid #C70F19; width: 60px; height: 60px; overflow: hidden;">
-                                    <!-- <img class="w-100 h-100 rounded-circle"
-                                        style="object-fit: cover; border: solid 2px white;" src="images/diimtech.jpg"
-                                        alt=""> -->
-                                </div>
-                                <div class="text ms-4">
-                                    <h5 class="m-0" id="title"><b>Find Your Perfect Match Campaign </b></h5>
-                                    <span class="m-0 text-dark"><b>Description: </b>Target businesses with a campaign highlighting how Skill Sphere can help them find the right talent for their projects. Share case studies and testimonials from businesses that have successfully hired through the platform.
-                                       <br><b>Goal: </b> Attract more businesses to use the platform for hiring.</span>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="p-0 mb-3 campaign text-decoration-none text-primary">
-                            <div class="d-flex align-items-center flex-row campaign-col shadow ps-3 rounded py-2">
-                                <div class="rounded-circle"
-                                    style="border: 1px solid #C70F19; width: 60px; height: 60px; overflow: hidden;">
-                                    <!-- <img class="w-100 h-100 rounded-circle"
-                                        style="object-fit: cover; border: solid 2px white;" src="images/diimtech.jpg"
-                                        alt=""> -->
-                                </div>
-                                <div class="text ms-4">
-                                    <h5 class="m-0" id="title"><b>Talent Spotlight Series</b></h5>
-                                    <span class="m-0 text-dark"><b>Description: </b>Feature a different talent each week or month on your blog and social media channels. Share their journey, skills, and how Skill Sphere has helped them.
-                                       <br><b>Goal: </b> Increase visibility for talented individuals and showcase the benefits of joining Skill Sphere.</span>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="p-0 mb-3 campaign text-decoration-none text-primary">
-                            <div class="d-flex align-items-center flex-row campaign-col shadow ps-3 rounded py-2">
-                                <div class="rounded-circle"
-                                    style="border: 1px solid #C70F19; width: 60px; height: 60px; overflow: hidden;">
-                                    <!-- <img class="w-100 h-100 rounded-circle"
-                                        style="object-fit: cover; border: solid 2px white;" src="images/diimtech.jpg"
-                                        alt=""> -->
-                                </div>
-                                <div class="text ms-4">
-                                    <h5 class="m-0" id="title"><b>Join the Community Campaign</b></h5>
-                                    <span class="m-0 text-dark"><b>Description: </b>Run a campaign encouraging users to join and participate in Skill Sphere’s community features, such as forums, groups, and networking events.
-                                       <br><b>Goal: </b> Foster a sense of community and increase engagement on the platform.</span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-11 col-lg-5 col-xl-6 mt-3 mt-lg-0 me-3 me-lg-2 mx-auto ms-lg-auto">
-                    <img class="w-100 rounded" src="images/org.png" alt="">
-                </div>
-            </div>
-             </section>
-            </div>
-        </section> 
-        <section class=" mx-4 py-8 my-8 bg-red-600 rounded-[45px]">
-            <div id="jobs">
-                <div class="text-center bg-black  p-4 rounded-lg mx-auto w-[15.6em]">
-                    <span class="text-2xl font-bold text-white">Jobs Available</span>
+        <section class="container-md container-fluid py-8 my-8" id="jobs">
+                <div class="text-center bg-black p-3 rounded-lg mx-auto w-[15.6em]">
+                    <span class="text-1xl font-bold text-white">Jobs Available</span>
                 </div>
 
-                <div class="flex flex-wrap gap-8 mt-5 justify-center">
+                <div class="row g-5 mt-5">
                     <!-- Available Jobs -->
 
-                    <div class=" p-8 rounded-[45px] shadow-md w-[35em] bg-gray-200">
-                        <div class="flex  items-center justify-between mb-4 me-4 ">
-                            <h2 class="text-xl font-bold">Fashion Designer</h2>
-                            <span class="bg-black text-white px-4 py-2 rounded-full">New</span>
+                    <div class="col-lg-4">
+                        <div class="px-4 py-5 rounded-[45px] shadow-md bg-red-100">
+                            <div class="flex  items-center justify-between mb-4 me-4 ">
+                                <h2 class="text-xl font-bold">Fashion Designer</h2>
+                                <span class="bg-primary text-white px-4 py-2 rounded-full">New</span>
+                            </div>
+                            <p class="text-gray-600 mb-2">Fixed Price - Posted 3 days ago</p>
+                            <p class="text-gray-600 mb-2">Pay: <span class="font-bold">$350</span></p>
+                            <p class="text-gray-600 mb-2">Experience Level: <span class="font-bold">6 months - 1
+                                    year</span>
+                            </p>
+                            <p class="text-gray-600 mb-4">
+                                We are seeking a creative and innovative Fashion Designer to
+                                join
+                                our dynamic team. The ideal candidate will be responsible for conceptualizing and
+                                creating...
+                                <!-- original clothing designs that reflect our brand's aesthetic and appeal to our target
+                                market. You will be involved in every aspect of the design process, from initial concept
+                                to
+                                final product, including sketching, selecting fabrics, and overseeing the production
+                                process. -->
+                            </p>
+                            <button class="px-4 py-2 btn btn-outline-primary rounded-full">See more</button>
                         </div>
-                        <p class="text-gray-600 mb-2">Fixed Price - Posted 3 days ago</p>
-                        <p class="text-gray-600 mb-2">Pay: <span class="font-bold">$350</span></p>
-                        <p class="text-gray-600 mb-2">Experience Level: <span class="font-bold">6 months - 1 year</span></p>
-                        <p class="text-gray-600 mb-4">We are seeking a creative and innovative Fashion Designer to join our dynamic team. The ideal candidate will be responsible for conceptualizing and creating original clothing designs that reflect our brand's aesthetic and appeal to our target market. You will be involved in every aspect of the design process, from initial concept to final product, including sketching, selecting fabrics, and overseeing the production process.</p>
-                        <button class="px-4 py-2 text-black border-2 border-black rounded-full">See more</button>
                     </div>
 
-                    <div class="p-8 rounded-[45px] shadow-md w-[35em] bg-gray-200">
-                        <div class="flex  items-center justify-between mb-4 me-2 ">
-                            <h2 class="text-xl font-bold">Mechanics</h2>
-                            <span class="bg-black text-white px-4 py-2 rounded-full">New</span>
+                    <div class="col-lg-4">
+                        <div class="px-4 py-5 rounded-[45px] shadow-md bg-red-100">
+                            <div class="flex  items-center justify-between mb-4 me-2 ">
+                                <h2 class="text-xl font-bold">Mechanics</h2>
+                                <span class="bg-primary text-white px-4 py-2 rounded-full">New</span>
+                            </div>
+                            <p class="text-gray-600 mb-2">Fixed Price - Posted 3 days ago</p>
+                            <p class="text-gray-600 mb-2">Pay: <span class="font-bold">$230</span></p>
+                            <p class="text-gray-600 mb-2">Experience Level: <span class="font-bold">5-7 years</span></p>
+                            <p class="text-gray-600 mb-4">
+                                We are seeking a skilled and reliable Mechanic to join our
+                                team.
+                                The ideal candidate will be responsible for diagnosing, repairing, and performing
+                                preventative...
+                                <!-- maintenance on a variety of vehicles and machinery. You will ensure that
+                                all
+                                vehicles operate safely and efficiently, providing top-notch service to our customers
+                                and
+                                maintaining high standards of work. -->
+                            </p>
+                            <button class="px-4 py-2 btn btn-outline-primary rounded-full">See more</button>
                         </div>
-                        <p class="text-gray-600 mb-2">Fixed Price - Posted 3 days ago</p>
-                        <p class="text-gray-600 mb-2">Pay: <span class="font-bold">$230</span></p>
-                        <p class="text-gray-600 mb-2">Experience Level: <span class="font-bold">5-7 years</span></p>
-                        <p class="text-gray-600 mb-4">We are seeking a skilled and reliable Mechanic to join our team. The ideal candidate will be responsible for diagnosing, repairing, and performing preventative maintenance on a variety of vehicles and machinery. You will ensure that all vehicles operate safely and efficiently, providing top-notch service to our customers and maintaining high standards of work.</p>
-                        <button class="px-4 py-2 border-2 border-black  text-black rounded-full">See more</button>
                     </div>
 
-                    <div class="p-8 rounded-[45px] shadow-md w-[35em] bg-gray-200">
-                        <div class="flex  items-center justify-between mb-4 me-2 ">
-                            <h2 class="text-xl font-bold">Photographer</h2>
-                            <span class="bg-black text-white px-4 py-2 rounded-full">New</span>
+                    <div class="col-lg-4">
+                        <div class="px-4 py-5 rounded-[45px] shadow-md bg-red-100">
+                            <div class="flex  items-center justify-between mb-4 me-2 ">
+                                <h2 class="text-xl font-bold">Photographer</h2>
+                                <span class="bg-primary text-white px-4 py-2 rounded-full">New</span>
+                            </div>
+                            <p class="text-gray-600 mb-2">Fixed Price - Posted 3 days ago</p>
+                            <p class="text-gray-600 mb-2">Pay: <span class="font-bold">$105</span></p>
+                            <p class="text-gray-600 mb-2">Experience Level: <span class="font-bold">3-5 years</span></p>
+                            <p class="text-gray-600 mb-4">
+                                We are seeking a talented and creative Photographer to join
+                                our
+                                team. The Photographer will be responsible for capturing high-quality images that align
+                                with...
+                                <!-- the company’s brand and objectives. The ideal candidate will have a strong portfolio
+                                demonstrating expertise in various types of photography, including portrait, product,
+                                event,
+                                and landscape photography. They should also be proficient in post-production editing and
+                                have an eye for detail. -->
+                            </p>
+                            <button class="px-4 py-2 btn btn-outline-primary rounded-full">See more</button>
                         </div>
-                        <p class="text-gray-600 mb-2">Fixed Price - Posted 3 days ago</p>
-                        <p class="text-gray-600 mb-2">Pay: <span class="font-bold">$105</span></p>
-                        <p class="text-gray-600 mb-2">Experience Level: <span class="font-bold">3-5 years</span></p>
-                        <p class="text-gray-600 mb-4">We are seeking a talented and creative Photographer to join our team. The Photographer will be responsible for capturing high-quality images that align with the company’s brand and objectives. The ideal candidate will have a strong portfolio demonstrating expertise in various types of photography, including portrait, product, event, and landscape photography. They should also be proficient in post-production editing and have an eye for detail.</p>
-                        <button class="px-4 py-2 border-2 border-black  text-black rounded-full">See more</button>
                     </div>
 
-                    <div class="p-8 rounded-[45px] shadow-md w-[35em] bg-gray-200">
-                        <div class="flex  items-center justify-between mb-4 me-4 ">
-                            <h2 class="text-xl font-bold">Barber</h2>
-                            <span class="bg-black text-white px-4 py-2 rounded-full ">New</span>
+                    <div class="col-lg-4">
+                        <div class="px-4 py-5 rounded-[45px] shadow-md bg-red-100">
+                            <div class="flex  items-center justify-between mb-4 me-4 ">
+                                <h2 class="text-xl font-bold">Barber</h2>
+                                <span class="bg-primary text-white px-4 py-2 rounded-full ">New</span>
+                            </div>
+                            <p class="text-gray-600 mb-2">Fixed Price - Posted 3 days ago</p>
+                            <p class="text-gray-600 mb-2">Pay: <span class="font-bold">$312</span></p>
+                            <p class="text-gray-600 mb-2">Experience Level: <span class="font-bold">6 months - 1
+                                    year</span>
+                            </p>
+                            <p class="text-gray-600 mb-4">
+                                We are seeking a skilled and personable Barber to join our
+                                team.
+                                As a Barber, you will provide a range of grooming services to clients, 
+                                including haircuts, shaves, beard trims, and styling...
+                                <!--  . You will play a key role in helping clients look and
+                                feel
+                                their best while ensuring a positive and welcoming experience. -->
+                            </p>
+                            <button class="px-4 py-2 btn btn-outline-primary rounded-full">See more</button>
                         </div>
-                        <p class="text-gray-600 mb-2">Fixed Price - Posted 3 days ago</p>
-                        <p class="text-gray-600 mb-2">Pay: <span class="font-bold">$312</span></p>
-                        <p class="text-gray-600 mb-2">Experience Level: <span class="font-bold">6 months - 1 year</span></p>
-                        <p class="text-gray-600 mb-4">We are seeking a skilled and personable Barber to join our team. As a Barber, you will provide a range of grooming services to clients, including haircuts, shaves, beard trims, and styling. You will play a key role in helping clients look and feel their best while ensuring a positive and welcoming experience.</p>
-                        <button class="px-4 py-2 border-2 border-black  text-black rounded-full">See more</button>
                     </div>
 
-                    
+                    <div class="col-lg-4">
+                        <div class="px-4 py-5 rounded-[45px] shadow-md bg-red-100">
+                            <div class="flex  items-center justify-between mb-4 me-2 ">
+                                <h2 class="text-xl font-bold">Photographer</h2>
+                                <span class="bg-primary text-white px-4 py-2 rounded-full">New</span>
+                            </div>
+                            <p class="text-gray-600 mb-2">Fixed Price - Posted 3 days ago</p>
+                            <p class="text-gray-600 mb-2">Pay: <span class="font-bold">$105</span></p>
+                            <p class="text-gray-600 mb-2">Experience Level: <span class="font-bold">3-5 years</span></p>
+                            <p class="text-gray-600 mb-4">
+                                We are seeking a talented and creative Photographer to join
+                                our
+                                team. The Photographer will be responsible for capturing high-quality images 
+                                that align with the company’s brand and...
+                                <!-- objectives. The ideal candidate will have a strong portfolio
+                                demonstrating expertise in various types of photography, including portrait, product,
+                                event,
+                                and landscape photography. They should also be proficient in post-production editing and
+                                have an eye for detail. -->
+                            </p>
+                            <button class="px-4 py-2 btn btn-outline-primary rounded-full">See more</button>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="px-4 py-5 rounded-[45px] shadow-md bg-red-100">
+                            <div class="flex  items-center justify-between mb-4 me-4 ">
+                                <h2 class="text-xl font-bold">Barber</h2>
+                                <span class="bg-primary text-white px-4 py-2 rounded-full ">New</span>
+                            </div>
+                            <p class="text-gray-600 mb-2">Fixed Price - Posted 3 days ago</p>
+                            <p class="text-gray-600 mb-2">Pay: <span class="font-bold">$312</span></p>
+                            <p class="text-gray-600 mb-2">Experience Level: <span class="font-bold">6 months - 1
+                                    year</span>
+                            </p>
+                            <p class="text-gray-600 mb-4">
+                                We are seeking a skilled and personable Barber to join our
+                                team.
+                                As a Barber, you will provide a range of grooming 
+                                services to clients, including haircuts, shaves, beard trims, and styling...
+                                <!-- . You will play a key role in helping clients look and
+                                feel
+                                their best while ensuring a positive and welcoming experience. -->
+                            </p>
+                            <button class="px-4 py-2 btn btn-outline-primary rounded-full">See more</button>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="text-center mt-8">
                     <button class="px-6 py-2 bg-black text-white rounded">Load more</button>
                 </div>
-
-            </div>
         </section>
 
 
-            <!-- Featured Consultant -->
+        <!-- Featured Consultant -->
 
-            <section class="p-8">
-                <div class="text-center mb-12">
-                    <h1 class="text-3xl font-bold">Featured Consultants</h1>
-                </div>
-        
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-                 
-                    <div class="bg-white p-6 rounded-lg shadow-md">
-                        <div class="flex justify-center items-center mb-4">
-                            <div class="w-24 h-24 bg-gray-300 rounded-full">
-                                <img class="w-24 h-24 bg-gray-300 rounded-full" src="images/avatar-2.jpg" alt="">
-                            </div>
+        <section class="container-md container-fluid">
+            <div class="text-center mb-12">
+                <h1 class="text-3xl font-bold">Featured <span class="text-primary">Consultants</span></h1>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex justify-center items-center mb-4">
+                        <div class="w-24 h-24 bg-gray-300 rounded-full">
+                            <img class="w-24 h-24 bg-gray-300 rounded-full" src="images/avatar-2.jpg" alt="">
                         </div>
-                        <h2 class="text-xl font-bold mb-2">Oluwatobi Adeyeye M.</h2>
-                        <p class="text-gray-500 mb-2">Graphic Designer, UI/UX Designer, Software Developer</p>
-                        <div class="flex justify-between text-gray-600 mb-4">
-                            <div>
-                                <p class="font-bold">Pay Rate:</p>
-                                <p>$450</p>
-                            </div>
-                            <div>
-                                <p class="font-bold">Experience:</p>
-                                <p>4-5 years</p>
-                            </div>
-                        </div>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Figma Design</span>
-                            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">UI/UX</span>
-                            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Web Design</span>
-                            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Brochure Design</span>
-                            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Front-end Developer</span>
-                        </div>
-                        <button class="w-full bg-black text-white py-2 rounded-lg">Hire now</button>
                     </div>
-
-                    <div class="bg-white p-6 rounded-lg shadow-md">
-                        <div class="flex justify-center items-center mb-4">
-                            <div class="w-24 h-24 bg-gray-300 rounded-full">
-                                <img class="w-24 h-24 bg-gray-300 rounded-full" src="images/OIP.jpg" alt="">
-                            </div>
+                    <h2 class="text-xl font-bold mb-2 text-primary">Oluwatobi Adeyeye M.</h2>
+                    <p class="text-gray-500 mb-2">Graphic Designer, UI/UX Designer, Software Developer</p>
+                    <div class="flex justify-between text-gray-600 mb-4">
+                        <div>
+                            <p class="font-bold">Pay Rate:</p>
+                            <p>$450</p>
                         </div>
-                        <h2 class="text-xl font-bold mb-2">Dorcas M. O.</h2>
-                        <p class="text-gray-500 mb-2">Social-Media Manager, Digital Marketer, Content Creator</p>
-                        <div class="flex justify-between text-gray-600 mb-4">
-                            <div>
-                                <p class="font-bold">Pay Rate:</p>
-                                <p>$250</p>
-                            </div>
-                            <div>
-                                <p class="font-bold">Experience:</p>
-                                <p>1-3 years</p>
-                            </div>
+                        <div>
+                            <p class="font-bold">Experience:</p>
+                            <p>4-5 years</p>
                         </div>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Digital Marketer</span>
-                            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Content Creator</span>
-                            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Technical Writer</span>
-                            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Brochure Design</span>
-                            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">UI/UX</span>
-                        </div>
-                        <button class="w-full bg-black text-white py-2 rounded-lg">Hire now</button>
                     </div>
-
-                    <div class="bg-white p-6 rounded-lg shadow-md">
-                        <div class="flex justify-center items-center mb-4">
-                            <div class="w-24 h-24 bg-gray-300 rounded-full">
-                                <img src="images/client2.png" alt="">
-                            </div>
-                        </div>
-                        <h2 class="text-xl font-bold mb-2">Femi F. S.</h2>
-                        <p class="text-gray-500 mb-2">DevOps, Mobile App Dev., Software Developer</p>
-                        <div class="flex justify-between text-gray-600 mb-4">
-                            <div>
-                                <p class="font-bold">Pay Rate:</p>
-                                <p>$540</p>
-                            </div>
-                            <div>
-                                <p class="font-bold">Experience:</p>
-                                <p>5-7 years</p>
-                            </div>
-                        </div>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Back-end Developer</span>
-                            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Mobile App Dev.</span>
-                            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Web Design</span>
-                            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">DevOps</span>
-                            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Front-end Developer</span>
-                        </div>
-                        <button class="w-full bg-black text-white py-2 rounded-lg">Hire now</button>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Figma Design</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">UI/UX</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Web Design</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Brochure Design</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Front-end
+                            Developer</span>
                     </div>
-                </div>
-                    
-
-                        
-            </section>
-
-
-
-            <!-- Job Seekers -->
-
-            <section class="job-seeker p-8">
-                 <!-- How it works for Job Seekers -->
-                <div class="text-center mb-12">
-                    <h1 class="text-3xl font-bold">How it works for Job Seekers</h1>
+                    <button class="w-full bg-primary text-white py-2 rounded-lg">Hire now</button>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-                    <div class="bg-white p-6 rounded-lg shadow-md">
-                        <div class="flex items-center mb-4">
-                            <div class="w-12 h-12 bg-black rounded-full"></div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex justify-center items-center mb-4">
+                        <div class="w-24 h-24 bg-gray-300 rounded-full">
+                            <img class="w-24 h-24 bg-gray-300 rounded-full" src="images/OIP.jpg" alt="">
                         </div>
-                        <h2 class="text-xl font-bold mb-2">Step 1</h2>
-                        <h3 class="text-lg font-bold mb-2">Create Your Profile</h3>
-                        <p class="text-gray-600">Create an account, Upload necessary documents.</p>
                     </div>
-
-                    <div class="bg-white p-6 rounded-lg shadow-md">
-                        <div class="flex items-center mb-4">
-                            <div class="w-12 h-12 bg-black rounded-full"></div>
+                    <h2 class="text-xl font-bold mb-2 text-primary">Dorcas M. O.</h2>
+                    <p class="text-gray-500 mb-2">Social-Media Manager, Digital Marketer, Content Creator</p>
+                    <div class="flex justify-between text-gray-600 mb-4">
+                        <div>
+                            <p class="font-bold">Pay Rate:</p>
+                            <p>$250</p>
                         </div>
-                        <h2 class="text-xl font-bold mb-2">Step 2</h2>
-                        <h3 class="text-lg font-bold mb-2">Search and Apply for Jobs</h3>
-                        <p class="text-gray-600">Go to the find job page and apply for qualified jobs .</p>
-                    </div>
-
-                    <div class="bg-white p-6 rounded-lg shadow-md ">
-                        <div class="flex items-center mb-4">
-                            <div class="w-12 h-12 bg-black rounded-full"></div>
+                        <div>
+                            <p class="font-bold">Experience:</p>
+                            <p>1-3 years</p>
                         </div>
-                        <h2 class="text-xl font-bold mb-2">Step 3</h2>
-                        <h3 class="text-lg font-bold mb-2">Meet the Employer</h3>
-                        <p class="text-gray-600">After necessary sreening. If you have been selected you will be contated by your employer</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Digital Marketer</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Content Creator</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Technical Writer</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Brochure Design</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">UI/UX</span>
+                    </div>
+                    <button class="w-full bg-primary text-white py-2 rounded-lg">Hire now</button>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex justify-center items-center mb-4">
+                        <div class="w-24 h-24 bg-gray-300 rounded-full">
+                            <img src="images/client2.png" alt="">
+                        </div>
+                    </div>
+                    <h2 class="text-xl font-bold mb-2 text-primary">Femi F. S.</h2>
+                    <p class="text-gray-500 mb-2">DevOps, Mobile App Dev., Software Developer</p>
+                    <div class="flex justify-between text-gray-600 mb-4">
+                        <div>
+                            <p class="font-bold">Pay Rate:</p>
+                            <p>$540</p>
+                        </div>
+                        <div>
+                            <p class="font-bold">Experience:</p>
+                            <p>5-7 years</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Back-end Developer</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Mobile App Dev.</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Web Design</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">DevOps</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">Front-end
+                            Developer</span>
+                    </div>
+                    <button class="w-full bg-primary text-white py-2 rounded-lg">Hire now</button>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+        <!-- Job Seekers -->
+        <section class="job-seeker container-md container-fluid">
+            <!-- How it works for Job Seekers -->
+            <div class="text-center mb-12">
+                <h1 class="text-3xl font-bold">How it works for <span class="text-primary">Job Seekers</span></h1>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-primary text-white rounded-full d-flex align-items-center justify-content-center fs-4">&#9734;</div>
+                    </div>
+                    <h2 class="text-xl font-bold mb-2">Step 1</h2>
+                    <h3 class="text-lg font-bold mb-2">Create Your Profile</h3>
+                    <p class="text-gray-600">Create an account, Upload necessary documents.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-primary text-white rounded-full d-flex align-items-center justify-content-center fs-4">&#9728;</div>
+                    </div>
+                    <h2 class="text-xl font-bold mb-2">Step 2</h2>
+                    <h3 class="text-lg font-bold mb-2">Search and Apply for Jobs</h3>
+                    <p class="text-gray-600">Go to the find job page and apply for qualified jobs .</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-primary text-white rounded-full d-flex align-items-center justify-content-center fs-4">&#9872;</div>
+                    </div>
+                    <h2 class="text-xl font-bold mb-2">Step 3</h2>
+                    <h3 class="text-lg font-bold mb-2">Meet the Employer</h3>
+                    <p class="text-gray-600">After necessary sreening. If you have been selected you will be contated by
+                        your employer</p>
+                </div>
+            </div>
+
+            <!-- How it works for Employer -->
+
+            <div class="text-center mb-12">
+                <h1 class="text-3xl font-bold">How it works for <span class="text-primary">Employers</span></h1>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-primary text-white rounded-full d-flex align-items-center justify-content-center fs-4">&#9967;</div>
+                    </div>
+                    <h2 class="text-xl font-bold mb-2">Step 1</h2>
+                    <h3 class="text-lg font-bold mb-2">Create your free employer account</h3>
+                    <p class="text-gray-600">Create an account. Set it up fully. Upload necessary documents.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-primary text-white rounded-full d-flex align-items-center justify-content-center fs-4">&#9872;</div>
+                    </div>
+                    <h2 class="text-xl font-bold mb-2">Step 2</h2>
+                    <h3 class="text-lg font-bold mb-2">Post Your Job</h3>
+                    <p class="text-gray-600">Post Jobs by specifying the title, description, budget, expertise and so on.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-primary text-white rounded-full d-flex align-items-center justify-content-center fs-4">&#9832;</div>
+                    </div>
+                    <h2 class="text-xl font-bold mb-2">Step 3</h2>
+                    <h3 class="text-lg font-bold mb-2">Receive screened candidates</h3>
+                    <p class="text-gray-600">You'll receieve multiple screened candidate. Choose from the screen
+                        candidates and you'll be connected.</p>
+                </div>
+            </div>
+
+            <!-- Testimonial -->
+            <div class="text-center mb-12">
+                <h1 class="text-3xl font-bold"><span class="text-primary">Testimonies</span></h1>
+            </div>
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-touch="true" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="text-center d-block">
+                        <h5 class="fs-3 text-primary font-bold mb-2">~Isaac Newton w.</h5>
+                        <p class="fs-5 text-dark">I posted a carpentry job. The campenter did their job to the fullest.</p>
+                      </div>
+                    </div>
+                  <div class="carousel-item">
+                    <div class="text-center d-block">
+                        <h5 class="fs-3 text-primary font-bold mb-2">~William Collins</h5>
+                        <p class="fs-5 text-dark">I was selected quickly after their screening. Their pay is also the best. No hidden
+                            clauses.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="fs-3 text-center d-block">
+                        <h5 class="text-primary font-bold mb-2">~J. W. Bush</h5>
+                        <p class="fs-5 text-dark">Best servive ever.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="about-us" class="about container-md container-fluid py-3 py-xl-5 my-md-5">
+            <!-- d-flex align-items-center justify-content-between px-2 px-md-5 pe-5 pe-md-5 my-5 flex-md-column flex-lg-row -->
+            <div class="about-content row gx-5" style="transition: .3s;">
+                <div class="abt-img-box col-lg-5">
+                    <div class="title mb-4 mt-1">
+                        <h1 class="fw-bold fs-2 text-md-center text-lg-start">
+                            About <span class="text-primary">Us</span>
+                        </h1>
+                    </div>
+                    <img class="" src="images/connect.png" alt="..."
+                        style="object-fit: fill; width: 100px; height: 100px">
+                    <div class="mt-2">
+                        <h5 class="fw-bold fs-4">Welcome to Skill Sphere</h5>
+                        At Skill Sphere, we believe that talent knows no bounds, and opportunities should be
+                        accessible to all. Our platform connects skilled individuals with businesses and entrepreneurs
+                        who need their expertise, fostering a community of collaboration and growth.
+
+                        <h5 class="my-1 fs-4 fw-bold">Our Story</h5>
+
+                        We saw a gap in the market where talented individuals struggled to find meaningful work, and
+                        businesses found it hard to discover the right skills. Our founders, passionate about innovation
+                        and inclusivity, created Skill Sphere to bridge this gap. Our mission is to empower talents to
+                        shine and businesses to thrive.
                     </div>
                 </div>
+                <div class="col-lg-7">
+                    <p class="text-md-center text-lg-start">
+                    <h5 class="my-1 fs-3 fw-bold">Our Mission</h5>
 
-                <!-- How it works for Employer -->
+                    <h6 class="my-1 fs-4 fw-bold">Our mission is to:</h6>
 
-                <div class="text-center mb-12">
-                    <h1 class="text-3xl font-bold">How it works for Employees</h1>
+                    <ul>
+                        <li>Provide a platform for talents to showcase their skills and connect with potential employers
+                        </li>
+                        <li>Help businesses find the right talent to drive their success</li>
+                        <li>Foster a community of collaboration, learning, and growth</li>
+                    </ul>
+
+                    <h6 class="my-1 fs-4 fw-bold">Our Values</h6>
+
+                    <ul>
+                        <li>Inclusivity: We believe everyone deserves access to opportunities</li>
+                        <li>Quality: We strive for excellence in everything we do</li>
+                        <li>Community: We foster connections and collaboration</li>
+                        <li>Growth: We empower talents and businesses to reach their full potential</li>
+                    </ul>
+
+                    <h6 class="my-1 fs-4 fw-bold">How We Work</h6>
+
+                    Our platform allows talents to create profiles showcasing their skills, experience, and
+                    portfolio. Businesses can search, find, and connect with the right talents for their projects.
+                    We offer a secure, user-friendly, and efficient way to find the perfect match.
+
+                    <h6 class="my-1 fs-4 fw-bold">Join Our Community</h6>
+
+                    Be part of a vibrant community of talents and businesses. <a href="signup.html">Sign up</a> today
+                    and start connecting,
+                    collaborating, and growing!
+                    <span class="line d-block col-4 bg-primary rounded mx-md-auto mx-lg-0 mt-5"></span>
+                    </p>
                 </div>
-
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-                    
-                    <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h2 class="text-xl font-bold mb-2">Step 1</h2>
-                        <h3 class="text-lg font-bold mb-2">Create your free employer dashboard</h3>
-                        <p class="text-gray-600">Create an account. Set it up fully. Upload necessary documents.</p>
-                    </div>
-
-                    <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h2 class="text-xl font-bold mb-2">Step 2</h2>
-                        <h3 class="text-lg font-bold mb-2">Post Your Job</h3>
-                        <p class="text-gray-600">Post Jobs.</p>
-                    </div>
-
-                    <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h2 class="text-xl font-bold mb-2">Step 3</h2>
-                        <h3 class="text-lg font-bold mb-2">Receive screened candidates</h3>
-                        <p class="text-gray-600">You'll receieve multiple screened candidate. Choose from the screen candidates and you'll be connected.</p>
-                    </div>
-                </div>
-
-                <!-- Testimonial -->
-                <div class="bg-black text-white py-8 px-6 mx-4 my-4 rounded-lg shadow-md text-center">
-                    <p class="mb-4">I posted a carpentry job. The campenter did their job to the fullest.</p>
-                    <p class="font-bold">~Isaac Newton w.</p>
-                </div>
-
-                <div class="bg-black text-white py-8 px-6 mx-4 my-4 rounded-lg shadow-md text-center">
-                    <p class="mb-4">I was selected quickly after their screening. Their pay is also the best. No hidden clauses.</p>
-                    <p class="font-bold">~William Collins</p>
-                </div>
-
-                <div class="bg-black text-white py-8 px-6 mx-4 my-4 rounded-lg shadow-md text-center">
-                    <p class="mb-4">Best servive ever.</p>
-                    <p class="font-bold">~J. W. Bush</p>
-                </div>
-            </section>
+            </div>
+        </section>
     </main>
 
-    <footer class="bg-gray-300 py-8 bg-red-600">
-        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 text-white">
-            <div >
+    <footer class="py-8 bg-black">
+        <div class="container-md container-fluid mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 text-white">
+            <div>
                 <h3 class="font-bold mb-4">Quick Links</h3>
                 <ul class="space-y-2">
                     <li><a href="#" class="hover:text-gray-700">Home</a></li>
@@ -515,17 +568,18 @@
             </div>
             <div>
                 <h3 class="font-bold mb-4">Contact Address</h3>
-                <p>Lorem ipsum dolor sit amet. Et facere veniam non deleniti rerum a ipsa unde id tenetur voluptatem sed nemo delectus qui alias laudantium.</p>
+                <p>Skill Sphere connects skilled individuals with businesses and entrepreneurs who need their expertise, fostering a community of collaboration and growth</p>
                 <p class="mt-4">+234 801 234 5678, +234 901 234 5678</p>
                 <p class="mt-2">skillsphere@gmail.com</p>
                 <p class="mt-2">Follow Us <br>@skill_sphere</p>
             </div>
         </div>
-        <div class="text-center mt-8">
+        <div class="text-center mt-8 text-muted">
             <p>&copy; copyright 2024 Skillsphere Company - All Rights Reserved</p>
         </div>
     </footer>
 
+    <script src="./js/bootstrap.bundle.js"></script>
     <script>
         document.querySelector('.collapse-btn').addEventListener('click', function (e) {
             document.querySelector('.sm-navb').classList.toggle('s-gr-hide');
@@ -562,4 +616,5 @@
         });
     </script>
 </body>
+
 </html>
